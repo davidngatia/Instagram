@@ -8,7 +8,7 @@ from tinymce.models import HTMLField
 # Create your models here.
 
 class Profile(models.Model):
-    user = models.OneToOneField(User,null = True,on_delete=models.CASCADE,related_name = "profile")
+    user = models.ForeignKey(User,null = True,on_delete=models.CASCADE,related_name = "profile")
     profile_photo=models.ImageField(upload_to='profiles',blank=True)
     bio=models.TextField()
 
