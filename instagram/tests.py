@@ -7,7 +7,7 @@ import datetime as dt
 class ProfileTestClass(TestCase):
     #Set up method
     def setUp(self):
-        self.new_profile =Profile(profile_photo="'image.jpeg'",bio="God Above All")
+        self.new_profile =Profile(profile_photo="'image.jpeg'",bio="Merry Christmas")
 
     # Testing  instance
     def test_instance(self):
