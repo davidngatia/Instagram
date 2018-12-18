@@ -44,8 +44,8 @@ class Image(models.Model):
     likes=models.IntegerField(blank=True,null=True)
     # comments=models.ForeignKey(Comment)
 
-    # def __str__(self):
-    #     return self.name
+    def __str__(self):
+         return self.name
 
     def save_image(self):
         self.save()
