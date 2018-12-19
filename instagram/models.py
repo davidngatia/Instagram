@@ -13,7 +13,7 @@ class Profile(models.Model):
     bio=models.TextField()
 
     def __str__(self):
-        return self.user
+        return self.user.username
 
     def save_profile(self):
         self.save()
