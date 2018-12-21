@@ -28,7 +28,14 @@ This project was generated with:
 * Python3.6</br  >
 * Django framework</br  >
 * Postgresql</br  >
-
+* config==0.4.0
+* gunicorn==19.9.0
+* Pillow==5.3.0
+* psycopg2==2.7.6.1
+* psycopg2-binary==2.7.6.1
+* python-decouple==3.1
+* pytz==2018.7
+* whitenoise==4.1.2
 
 
 ## Support and contact details
